@@ -107,9 +107,10 @@
                         </td>
                         <td class="px-4 sm:px-6 py-4 text-sm text-gray-500">
                             <label class="flex items-center">
-                                <div class="relative inline-block w-8 h-4">
-                                    <input type="checkbox" class="toggle-checkbox absolute w-4 h-4 rounded-full bg-white border-me-4 appearance-none cursor-pointer checked:bg-green-500 checked:border-green-500 transition-transform duration-200" id="toggle1" checked />
-                                    <label for="toggle1" class="toggle-label block w-8 h-4 rounded-full bg-gray-300 cursor-pointer"></label>
+                                <div class="relative inline-block w-10 h-6">
+                                    <input type="checkbox" id="toggle1" class="sr-only peer" checked>
+                                    <div class="w-10 h-6 bg-gray-300 rounded-full peer-checked:bg-green-500 transition-colors duration-300"></div>
+                                    <div class="absolute left-0.5 top-0.5 w-5 h-5 bg-white rounded-full transition-transform duration-300 peer-checked:translate-x-4"></div>
                                 </div>
                             </label>
                         </td>
@@ -176,9 +177,10 @@
                         </td>
                         <td class="px-4 sm:px-6 py-4 text-sm text-gray-500">
                             <label class="flex items-center">
-                                <div class="relative inline-block w-8 h-4">
-                                    <input type="checkbox" class="toggle-checkbox absolute w-4 h-4 rounded-full bg-white border-4 appearance-none cursor-pointer checked:bg-green-500 checked:border-green-500 transition-transform duration-200" id="toggle4" checked />
-                                    <label for="toggle4" class="toggle-label block w-8 h-4 rounded-full bg-gray-300 cursor-pointer"></label>
+                                <div class="relative inline-block w-10 h-6">
+                                    <input type="checkbox" id="toggle1" class="sr-only peer">
+                                    <div class="w-10 h-6 bg-gray-300 rounded-full peer-checked:bg-green-500 transition-colors duration-300"></div>
+                                    <div class="absolute left-0.5 top-0.5 w-5 h-5 bg-white rounded-full transition-transform duration-300 peer-checked:translate-x-4"></div>
                                 </div>
                             </label>
                         </td>
